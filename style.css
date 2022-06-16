@@ -66,8 +66,6 @@ h2 {
 	justify-content: center;
 	flex-wrap: wrap;
 	width: 1000px;
-	transition-property: background-color;
-	transition-duration: 3s;
 }
 
 .square {
@@ -76,6 +74,8 @@ h2 {
 	width: 32px;
 	border: 1px solid #000;
 	border-radius: 6px;
+	transition-property: background-color;
+	transition-duration: 3s;
 }
 
 .square:hover {
